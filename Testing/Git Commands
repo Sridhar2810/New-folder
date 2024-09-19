@@ -1,0 +1,34 @@
+Basic Commands
+1.	git init - Initialize a new Git repository.
+2.	git clone <repo> - Clone an existing repository.
+3.	git add <file> - Stage changes for commit.
+4.	git commit -m "<message>" - Commit staged changes with a message.
+5.	git status - Show the status of working directory and staging area.
+6.	git diff - Show changes between commits, working directory, etc.
+7.	git log - Show commit history.
+Branching and Merging
+1.	git branch - List, create, or delete branches.
+2.	git checkout <branch> - Switch to a different branch.
+3.	git checkout -b <branch> - Create a new branch and switch to it.
+4.	git merge <branch> - Merge another branch into the current branch.
+5.	git rebase <branch> - Rebase current branch onto another branch.
+Remote Repositories
+1.	git remote - Manage remote repositories.
+2.	git remote add <name> <url> - Add a new remote repository.
+3.	git fetch - Fetch changes from the remote repository.
+4.	git pull - Fetch and merge changes from the remote repository.
+5.	git push - Push changes to the remote repository.
+Advanced Commands
+1.	git stash - Stash the changes in a dirty working directory.
+2.	git stash pop - Apply the most recent stash and remove it from the stash list.
+3.	git cherry-pick <commit> - Apply the changes from a specific commit to the current branch.
+4.	git revert <commit> - Create a new commit that undoes the changes of a specified commit.
+5.	git reset - Reset the current HEAD to a specified state, optionally modifying the index and working directory.
+6.	git tag - Create, list, or delete tags.
+Configuration and Help
+1.	git config - Get and set repository or global options.
+2.	git help <command> - Get help on a specific Git command.
+Newer Features and Tools
+1.	git switch <branch> - A more user-friendly way to switch branches (introduced as a simpler alternative to git checkout).
+2.	git restore <file> - Restore working directory files from a commit (introduced to simplify certain operations like git checkout for file restoration).
+
